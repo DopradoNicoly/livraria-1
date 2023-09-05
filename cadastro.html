@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Livros</title>
+        <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Livraria Fantástica</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="#">Livros</a></li>
+                <li><a href="#">Autores</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container">
+            <form>
+                <fieldset>
+                    <legend>Cadastro de Livros</legend>
+
+                    <div class="input-container">
+                        <label for="Titulo"></label>
+                        <input type="text" name="Titulo" placeholder="Titulo do livro" requireda autofocus>
+                    </div>
+
+                    <div class="input-container">
+                        <label for="autor"> Autor</label>
+                        <input type="texte" name="autor" id="autor" placeholder="Nome do Autor" required>
+                    </div>
+
+                    <div class="input-contaier">
+                        <label for="Editora"></label>
+                        <input type="texte" name="editora" id="editora" placeholder="Editora" required>
+                    </div>
+
+                    <div class="input-container">
+                        <label for="dtPublicação"></label>
+                        <input type="date" name="dtPublicação" id="dtPublicação" required>
+                    </div>
+
+                    <div class="input-container">
+                        <label>Idioma</label>
+                    <div class="input-check">
+                        <input type="checkbox" name="idioma" value="Português" id="portugues">
+                        <label for="portugues">Português</label>
+                    </div>
+                    <div class="input-check">
+                        <input type="checkbox" name="idioma" value="Inglês" id="ingles">
+                        <label for="ingles">Inglês</label>
+                    </div>
+                    <div class="input-check">
+                        <input type="checkbox" name="idioma" value="Espanhol" id="espanhol">
+                        <label for="espanhol">Espanhol</label>
+                    </div>
+                </div>
+
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
